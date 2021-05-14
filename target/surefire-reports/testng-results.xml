@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="62786" started-at="2021-05-13T05:51:28Z" finished-at="2021-05-13T05:52:31Z">
+  <suite name="All Test Suite" duration-ms="50610" started-at="2021-05-14T14:06:57Z" finished-at="2021-05-14T14:07:47Z">
     <groups>
     </groups>
-    <test name="INTRATEST" duration-ms="62786" started-at="2021-05-13T05:51:28Z" finished-at="2021-05-13T05:52:31Z">
+    <test name="INTRATEST" duration-ms="50610" started-at="2021-05-14T14:06:57Z" finished-at="2021-05-14T14:07:47Z">
       <class name="testbase.TestBase">
-        <test-method status="PASS" signature="myFirstTest()[pri:0, instance:testbase.TestBase@163425a]" name="myFirstTest" duration-ms="62683" started-at="2021-05-13T05:51:28Z" finished-at="2021-05-13T05:52:31Z">
+        <test-method status="PASS" signature="myFirstTest()[pri:0, instance:testbase.TestBase@163425a]" name="myFirstTest" duration-ms="48224" started-at="2021-05-14T14:06:59Z" finished-at="2021-05-14T14:07:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTest -->
