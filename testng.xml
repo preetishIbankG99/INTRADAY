@@ -4,6 +4,7 @@
     <test verbose="2" preserve-order="true" name="INTRATEST">
         <packages >
             <package name="testbase"/>
+            
         </packages>
     </test>
 </suite>
