@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99Banking">
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    </listeners>
+  <!--  <test verbose="2" preserve-order="true" name="E:/Eclipse All versions/Workspace/InternetGuru99Bank" parallel="tests">-->
+    <test verbose="2" preserve-order="true" name="E:/Eclipse All versions/Workspace/InternetGuru99Bank">
+        <classes>
+            <class name="com.qa.test.AdminLogintest"/>
+          <!--<class name="com.qa.test.NewCustomerTest"/>-->
+            <!-- <class name="com.qa.test.DataDrivenTest"/> -->
+         <!-- <class name="com.qa.test.HomePageTest"/>-->
+        </classes>
+    </test>
+</suite>

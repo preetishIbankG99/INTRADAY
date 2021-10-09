@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99Banking]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="E:/Eclipse All versions/Workspace/InternetGuru99Bank(failed)">
+    <classes>
+      <class name="com.qa.test.DataDrivenTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="0 1 2"/>
+          <include name="browserSetup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.test.DataDrivenTest -->
+    </classes>
+  </test> <!-- E:/Eclipse All versions/Workspace/InternetGuru99Bank(failed) -->
+</suite> <!-- Failed suite [Guru99Banking] -->
